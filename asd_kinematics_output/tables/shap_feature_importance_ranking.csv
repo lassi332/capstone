@@ -1,0 +1,1260 @@
+Feature,Mean_Abs_SHAP
+mean-y-WristLeft,0.5167922798013416
+mean-y-HandRight,0.39197702815279195
+mean-y-WristRight,0.3732408705270491
+mean-y-SpineBase,0.2633358511405811
+mean AnRTThL,0.20368949339349765
+mean-y-HandTipRightA,0.19891902043348703
+mean FoRTThL,0.1960982152378816
+mean-y-HipRight,0.17763415022892953
+variance HTGr,0.17642227530547955
+mean SPELL ,0.16458034262647162
+mean-y-HipLeft,0.15642616319688493
+std HTGr,0.11655682611531233
+std HIANL,0.11171053668798597
+mean THHAL ,0.11160260302914586
+variance SHWRL,0.11156444350963769
+mean-y-ElbowRight,0.10268424246753273
+mean FoRTHaTL,0.09887932528933879
+mean AnRTElL,0.08738675127685433
+variance HIANL,0.08173787646219546
+variance ElLTThL,0.07952960595544334
+mean KNFOL ,0.07716637005932338
+mean AnRTHaTL,0.0750250234077133
+mean FoRTHaL,0.06960099380473159
+mean HiLTThL,0.06958875739199807
+mean-y-HandTipLeft,0.06740941113512075
+mean FoRTWrL,0.06303882453386699
+mean FoLTWrL,0.06209441923567205
+std ElLTThL,0.05967119334247985
+mean-y-FootRight,0.05833873131231626
+mean AnLTHaL,0.057032200197032264
+mean AnLTThR,0.05255640499074947
+RomKeLy,0.048833899139393004
+mean KeLTWrR,0.042564266730126685
+variance THHTIR,0.04101273695333444
+variance AnkLTGr,0.03981689817762258
+std SPKNR,0.03710933401715524
+mean-y-AnkleRight,0.03695653194046983
+std KNFOR,0.036263216658106535
+variance HaLTKeL,0.03529697145300971
+mean FoLTHaTL,0.03412623505722571
+mean FoRTWrR,0.034105238912935446
+mean-y-HandLeft,0.032092368278428735
+mean-z-ThumbRight,0.031797795873629936
+mean AnRTKeR,0.031748319382349434
+RomKeRy,0.03167078062407187
+variance HaLTWrL,0.03088602064036055
+mean-y-KneeRight,0.03085575517517298
+mean-y-Head,0.030806788502940812
+mean HiLTWrL,0.030561240056008927
+mean FoRTSb,0.030468019645433567
+mean HiRTSSh,0.029730273607301835
+variance KNFOL,0.027436716495019723
+mean SHWRL,0.02737970279256048
+mean-y-Neck,0.026382492088142643
+variance HTiRTGr,0.025582293756799605
+mean SbTWrR,0.02550116005332788
+variance-z-ThumbRight,0.025221550829716017
+mean AnRTWrR,0.024579352707895137
+variance HaLTHiR,0.023716329711165433
+mean HaTLTNe,0.02370441984305438
+std FoLTShR,0.02308963186356437
+mean-z-FootRight,0.022471106676684
+mean HESHL,0.021850184213037922
+mean AnRTShR,0.021727808571921227
+std-z-HandRight,0.0215731186886051
+variance HaTRTThR,0.02089371416735417
+RomHaTRy,0.020748270638859274
+mean AnLTWrL,0.02039564596489391
+mean-y-ThumbLeft,0.02032334746463463
+std THHTIL,0.02007229364533938
+mean FoLTWrR,0.019859674851563976
+mean sbTGr,0.019234909214174204
+variance AnRTKeL,0.019031428342392007
+variance-y-HandRight,0.01899357710843761
+mean FoLTHaTR,0.018745067671733825
+std-z-HandTipRightA,0.018607338191247748
+mean HaLTSb,0.018584751194229462
+variance FoLTNe,0.018382574356286683
+mean FoLTH,0.018221498465720184
+variance HaTLTShL,0.017638653866421897
+mean ElLTFoL,0.01753423449223757
+mean FoRTThR,0.017125585333901298
+std HaLTSSh,0.017005702961182582
+mean-z-AnkleLeft,0.01699891319109336
+variance-x-AnkleLeft,0.016998635814758876
+variance HaTLTThL,0.01692975316952461
+SwiT,0.016768673671982422
+variance AnRTSb,0.016648609103245796
+mean MidTShR,0.01624313327303019
+std-z-HandTipLeft,0.015606390118003698
+mean HaTLTKeR,0.015287664321266476
+variance-z-FootLeft,0.015262050025578698
+std AnRTWrR,0.015116289114960463
+mean-z-Head,0.015107714392776268
+mean AnLTKeR,0.015068550547224158
+std-y-Head,0.015057377296003037
+mean SPKNL,0.014861648923025116
+mean AnRTNe,0.014567010244662382
+mean FoLTHaR,0.014414047085430507
+variance-z-ShoulderLeft,0.014026364073689318
+mean ShLTWrR,0.013581689523404213
+variance HaTLTSSh,0.013397378585365199
+variance-y-WristLeft,0.013311387878708291
+variance THHTIL,0.01271328548693475
+mean-z-HandTipLeft,0.012610232601177941
+variance KNFOR,0.012480598042238198
+std AnLTShR,0.012473708688160586
+std HTHiL,0.012185807850404257
+variance HaLTShL,0.012149461728353848
+variance-z-FootRight,0.01205844456539673
+mean AnLTHaTR,0.012004074707918162
+RomHiRx,0.011959137449673196
+std AnRTSSh,0.011921234266786266
+std-y-WristLeft,0.011698745981966359
+variance-y-ThumbLeft,0.011628447020237416
+variance-y-ThumbRight,0.011308964941977953
+std HaLTWrL,0.011293050272761982
+std SHWRL,0.011248903101026988
+variance FoLTKeL,0.011184602775435813
+mean NeTSb,0.011100452023028133
+mean HTHiR,0.01096202759916751
+std SShTThR,0.010751046530212516
+mean FoLTShR,0.010683791032668762
+variance-y-AnkleRight,0.010562708889848034
+variance ElRTHaR,0.010468004754072295
+std SHWRR,0.010415642581421554
+std SbTThL,0.010225721122628048
+mean FoRTHiL,0.010036458210335024
+mean HiLTKeR,0.010015224489428966
+std FoLTNe,0.01000965749746429
+mean KNFOR ,0.009955198064496074
+variance-z-WristRight,0.009890031827333369
+mean HTShL,0.00977180407366317
+std HiRTNe,0.009649382274388798
+variance KeLTThL,0.009577215674730423
+mean ElRTShR,0.009547873552163685
+std-z-Neck,0.009529370153009848
+std ELHAL,0.009502180516118026
+mean ShLTWrL,0.009417901378988455
+variance THHAL,0.009392973063201079
+mean KeLTNe,0.009245012516511306
+variance-z-HandTipLeft,0.009162070053263688
+std HESHR,0.008927643328844605
+mean-z-Neck,0.008882929093314083
+std AnkLTGr,0.008870406298995836
+variance HiRTThR,0.008701345478020787
+variance HaLTSSh,0.008409270525387742
+mean-z-ShoulderLeft,0.00838830441347547
+std FoLTShL,0.008296545161463643
+std HaRTSb,0.008237437241335615
+RomHiRy,0.008169251319022719
+std-z-Head,0.008137511538097377
+mean KeLTSb,0.00811493558240916
+std AnLTFoL,0.00811400176333616
+mean HaTRTH,0.008079414701945878
+StaT,0.008046672372358954
+std HaTRTShR,0.007835524539043213
+RomFoLy,0.007738291963186128
+mean ShLTThL,0.007539076436538856
+std HaLTHiL,0.007375556058466425
+mean FoRTHaR,0.007290742696247158
+variance-z-ElbowRight,0.007222132177564542
+variance HTiLTGr,0.007178784453280706
+std HaTRTWrL,0.007146754488353132
+variance-z-Neck,0.007011991148591818
+mean ELHAL,0.0069386896182653535
+variance HaTLTSb,0.0069330017004606516
+RomShLx,0.0069119217738222724
+mean ElRTSSh,0.006846749512090452
+std HaLTHiR,0.006806683606218482
+variance-y-HipLeft,0.006799260390895938
+variance KeRTWrL,0.006776197338979922
+RomHaTLy,0.006593269033334003
+std FoRTShR,0.0064699485293133975
+std AnRTKeL,0.006299262595287957
+variance AnLTThR,0.006229589003757348
+std-y-HipRight,0.006224096916086863
+std HaLTShL,0.006183284453681629
+std HaTRTKeR,0.006147186444887743
+std KeRTWrL,0.005903039071979496
+RomWrLx,0.005892245384987376
+variance KeLTKeR,0.005873004610577776
+variance HiLTWrL,0.005520119903886256
+variance MidTNe,0.005502825205241572
+std HaTLTSb,0.005447845471843
+mean-z-SpineShoulder,0.005216243951422941
+variance HaRTH,0.0049119630954378
+mean FoLTKeR,0.004874786033681288
+variance-z-HandLeft,0.004840481049887568
+variance ELHAR,0.004799446650767218
+mean AnLTSb,0.004528018189839571
+std HaLTH,0.004437147778543484
+std AnLTKeL,0.004428609257924965
+variance HiLTShL,0.004358113688026012
+variance-x-HandTipRightA,0.0042511007829836404
+variance SPKNR,0.004037622201732882
+mean HaRTThR,0.003986796184374316
+mean ElRTThL,0.0038540125080014824
+std HaLTThR,0.0037649628288175105
+std HaRTWrL,0.0035966124984817055
+variance AnLTWrL,0.00350583788736714
+variance AnRTH,0.0034749290449492057
+std MidTElL,0.0034688415535997497
+variance AnRTNe,0.003456230540543898
+std HaRTSSh,0.0034280331655800003
+variance HTThL,0.003409070832810141
+variance FoRTKeL,0.0033677611917411966
+std HaTLTNe,0.003258298062609811
+mean-x-HipRight,0.003166568545731753
+variance FoRTHaR,0.0031474175824809237
+std-y-AnkleRight,0.003110831260140462
+std ElLTHaL,0.003083235285328271
+variance ShLTSb,0.003006384428369643
+std AnLTElR,0.0029832708089964147
+std AnLTShL,0.002948134412111618
+variance ELHAL,0.002903211826542814
+std HiLTShR,0.002820863091149729
+mean-y-SpineShoulder,0.002797903046183706
+mean HaRTShR,0.0027049979233247233
+mean HaLTH,0.00270231703225779
+variance ElRTShL,0.0026431036744161756
+variance NeTThL,0.002627435268681528
+std NeTThL,0.0026125459240119763
+variance AnLTNe,0.0025013461780674694
+mean SShTWrL,0.0024776309983742775
+mean HTSSh,0.0024164910193121927
+mean ElLTSSh,0.0023861640227868727
+std AnLTSSh,0.002384621628183024
+std-x-SpineBase,0.0022505746530364235
+variance HTNe,0.0022272393215770387
+mean ElRTH,0.0022086094734876335
+std NeTShL,0.002187806275145796
+variance-y-SpineBase,0.0021357881198727237
+std HTNe,0.0020960349782755895
+std AnLTHaL,0.0020748921248415968
+std HiRTShR,0.002071436697093659
+variance MidTH,0.00202303465368689
+variance AnLTShR,0.0020105735725244197
+std ShRTWrR,0.00200666767071602
+std HaTLTThL,0.001971603934273667
+variance ShLTSSh,0.001817057862792109
+std-y-AnkleLeft,0.0018109824628945264
+mean HaTLTSSh,0.0017963603013874457
+std KeRTSb,0.0017762636206603655
+std-y-HandTipLeft,0.00171965704219544
+std-z-HandLeft,0.0017000066568846608
+variance ShRTThL,0.0016681051463831456
+RomAnLx,0.001567566954000734
+std-z-WristLeft,0.0015104708592903206
+std HTThL,0.001476851927418467
+variance NeTShL,0.0014767011279662595
+std FoLTHiL,0.00144494060630032
+std-y-SpineBase,0.0013327066934861107
+std AnRTSb,0.0012986533999494526
+std-x-KneeLeft,0.0012694085597109864
+std-z-AnkleLeft,0.001234546724607283
+std HaLTThL,0.0012026787410888812
+std AnRTKeR,0.0011816355131048014
+RomHaRx,0.0010134413199932239
+std-y-FootLeft,0.0010065267250917128
+variance-x-FootRight,0.0009591548583436637
+std FoRTKeL,0.0009468588724819723
+std KeRTThR,0.0009163783797759694
+variance MidTAnL,0.0009151070222418449
+std HTShL,0.0008090900764700386
+variance HTShL,0.0007942740140016775
+mean-z-FootLeft,0.0007722366352061777
+variance ShLTThR,0.000738218305416743
+variance MidTThL,0.000733206651877253
+std-z-HipLeft,0.0006780622693014532
+variance HaTLTNe,0.0006390758037601612
+variance FoLTH,0.0006388837152004543
+std KeRTWrR,0.0006029085177898188
+variance-z-WristLeft,0.0005958014466101564
+mean HTKeR,0.000564075698947949
+RomHaLy,0.0005582061389054198
+std THHAL,0.0005428658697866263
+variance FoLTSb,0.0005200338030208375
+variance sbTGr,0.00048325617178116866
+variance ElRTHaL,0.0004703765305674874
+std HaTLTShL,0.0004690842838082855
+mean ElLTWrR,0.0004444827466356773
+std-x-FootRight,0.0004243733023627602
+variance-z-ThumbLeft,0.0003970475851988762
+variance-z-KneeRight,0.00035920687949958036
+variance HaLTThL,0.00033963193561401884
+variance-y-HandTipRightA,0.0003169138073477785
+std-y-HandTipRightA,0.0003016953809349376
+variance KeRTWrR,0.0002038546024432995
+std HaRTShL,0.0002027191152309475
+variance HaTRTKeR,0.00018613674724605574
+std ElRTShR,0.00015502760252639265
+variance FoLTHiR,0.00014900460797756198
+variance MidTFoL,0.00014303214112242884
+variance THHAR,0.00013820041036424535
+std-x-HandLeft,0.00012597927280635928
+mean HTNe,8.437199968312268e-05
+std ElRTHiL,6.184989559684611e-05
+variance ElRTShR,3.3985779895118484e-05
+std ShLTThR,2.8449736059866664e-05
+RomHx,2.501600664220135e-05
+variance HTSSh,2.3797995256310206e-05
+std MidTHaR,0.0
+mean MidTHaTL,0.0
+variance MidTHaTL,0.0
+std MidTHaTL,0.0
+mean MidTHaTR,0.0
+variance MidTHaTR,0.0
+std MidTHaTR,0.0
+mean MidTH,0.0
+variance MidTHaR,0.0
+std MidTH,0.0
+mean MidTHiL,0.0
+variance MidTHiL,0.0
+std MidTHiL,0.0
+mean MidTHaR,0.0
+variance MidTHiR,0.0
+std MidTHiR,0.0
+mean MidTKeL,0.0
+variance MidTKeL,0.0
+std MidTKeL,0.0
+mean MidTKeR,0.0
+variance MidTKeR,0.0
+std MidTKeR,0.0
+mean MidTNe,0.0
+std MidTHaL,0.0
+std MidTNe,0.0
+mean MidTShL,0.0
+variance MidTShL,0.0
+std MidTShL,0.0
+variance MidTHaL,0.0
+variance MidTShR,0.0
+std MidTShR,0.0
+mean MidTSb,0.0
+variance MidTSb,0.0
+std MidTSb,0.0
+mean MidTSSh,0.0
+variance MidTSSh,0.0
+std MidTSSh,0.0
+mean MidTThL,0.0
+mean MidTHaL,0.0
+std MidTThL,0.0
+mean MidTThR,0.0
+variance MidTThR,0.0
+std MidTThR,0.0
+mean MidTWrL,0.0
+variance MidTWrL,0.0
+std MidTWrL,0.0
+mean MidTWrR,0.0
+variance MidTWrR,0.0
+std MidTWrR,0.0
+mean AnLTAnR,0.0
+variance AnLTAnR,0.0
+std AnLTAnR,0.0
+mean AnLTElL,0.0
+variance AnLTElL,0.0
+std AnLTElL,0.0
+mean AnLTElR,0.0
+variance AnLTElR,0.0
+std MidTFoR,0.0
+mean AnLTFoL,0.0
+variance AnLTFoL,0.0
+variance MidTFoR,0.0
+mean AnLTFoR,0.0
+variance AnLTFoR,0.0
+std AnLTFoR,0.0
+mean MidTFoR,0.0
+variance AnLTHaL,0.0
+std MidTFoL,0.0
+mean AnLTHaR,0.0
+variance AnLTHaR,0.0
+std AnLTHaR,0.0
+mean AnLTHaTL,0.0
+variance AnLTHaTL,0.0
+std AnLTHaTL,0.0
+mean MidTFoL,0.0
+variance AnLTHaTR,0.0
+std AnLTHaTR,0.0
+mean AnLTH,0.0
+variance AnLTH,0.0
+std AnLTH,0.0
+mean AnLTHiL,0.0
+variance AnLTHiL,0.0
+std AnLTHiL,0.0
+mean AnLTHiR,0.0
+variance AnLTHiR,0.0
+std AnLTHiR,0.0
+mean AnLTKeL,0.0
+variance AnLTKeL,0.0
+std MidTElR,0.0
+variance MidTElR,0.0
+variance AnLTKeR,0.0
+std AnLTKeR,0.0
+mean AnLTNe,0.0
+mean MidTElR,0.0
+std AnLTNe,0.0
+mean AnLTShL,0.0
+variance AnLTShL,0.0
+variance MidTElL,0.0
+mean AnLTShR,0.0
+mean MidTElL,0.0
+std MidTAnR,0.0
+variance MidTAnR,0.0
+variance AnLTSb,0.0
+std AnLTSb,0.0
+mean AnLTSSh,0.0
+variance AnLTSSh,0.0
+mean MidTAnR,0.0
+mean AnLTThL,0.0
+variance AnLTThL,0.0
+std AnLTThL,0.0
+std MidTAnL,0.0
+mean MidTAnL,0.0
+std AnLTThR,0.0
+std KNFOL,0.0
+std HIANR,0.0
+std AnLTWrL,0.0
+mean AnLTWrR,0.0
+variance AnLTWrR,0.0
+std AnLTWrR,0.0
+variance HIANR,0.0
+variance AnRTElL,0.0
+std AnRTElL,0.0
+mean AnRTElR,0.0
+variance AnRTElR,0.0
+std AnRTElR,0.0
+mean AnRTFoL,0.0
+variance AnRTFoL,0.0
+std AnRTFoL,0.0
+mean AnRTFoR,0.0
+variance AnRTFoR,0.0
+std AnRTFoR,0.0
+mean AnRTHaL,0.0
+variance AnRTHaL,0.0
+std AnRTHaL,0.0
+mean AnRTHaR,0.0
+variance AnRTHaR,0.0
+std AnRTHaR,0.0
+mean HIANR,0.0
+variance AnRTHaTL,0.0
+std AnRTHaTL,0.0
+mean AnRTHaTR,0.0
+variance AnRTHaTR,0.0
+std AnRTHaTR,0.0
+mean AnRTH,0.0
+mean HIANL ,0.0
+std AnRTH,0.0
+mean AnRTHiL,0.0
+variance AnRTHiL,0.0
+std AnRTHiL,0.0
+mean AnRTHiR,0.0
+variance AnRTHiR,0.0
+std AnRTHiR,0.0
+mean AnRTKeL,0.0
+mean SPKNR,0.0
+std SPKNL,0.0
+variance SPKNL,0.0
+variance AnRTKeR,0.0
+std THHTIR,0.0
+mean THHTIR ,0.0
+mean THHTIL ,0.0
+std AnRTNe,0.0
+mean AnRTShL,0.0
+variance AnRTShL,0.0
+std AnRTShL,0.0
+std THHAR,0.0
+variance AnRTShR,0.0
+std AnRTShR,0.0
+mean AnRTSb,0.0
+mean THHAR,0.0
+std ELHAR,0.0
+mean AnRTSSh,0.0
+variance AnRTSSh,0.0
+mean ELHAR ,0.0
+variance SHWRR,0.0
+variance AnRTThL,0.0
+std AnRTThL,0.0
+mean AnRTThR,0.0
+variance AnRTThR,0.0
+std AnRTThR,0.0
+mean AnRTWrL,0.0
+variance AnRTWrL,0.0
+std AnRTWrL,0.0
+mean SHWRR,0.0
+variance AnRTWrR,0.0
+std SPELR,0.0
+mean ElLTElR,0.0
+variance ElLTElR,0.0
+std ElLTElR,0.0
+variance SPELR,0.0
+variance ElLTFoL,0.0
+std ElLTFoL,0.0
+mean ElLTFoR,0.0
+variance ElLTFoR,0.0
+std ElLTFoR,0.0
+mean ElLTHaL,0.0
+variance ElLTHaL,0.0
+mean SPELR,0.0
+mean ElLTHaR,0.0
+variance ElLTHaR,0.0
+std ElLTHaR,0.0
+mean ElLTHaTL,0.0
+variance ElLTHaTL,0.0
+std ElLTHaTL,0.0
+mean ElLTHaTR,0.0
+variance ElLTHaTR,0.0
+std ElLTHaTR,0.0
+mean ElLTH,0.0
+variance ElLTH,0.0
+std ElLTH,0.0
+mean ElLTHiL,0.0
+variance ElLTHiL,0.0
+std ElLTHiL,0.0
+mean ElLTHiR,0.0
+variance ElLTHiR,0.0
+std ElLTHiR,0.0
+mean ElLTKeL,0.0
+variance ElLTKeL,0.0
+std ElLTKeL,0.0
+mean ElLTKeR,0.0
+variance ElLTKeR,0.0
+std ElLTKeR,0.0
+mean ElLTNe,0.0
+variance ElLTNe,0.0
+std ElLTNe,0.0
+mean ElLTShL,0.0
+variance ElLTShL,0.0
+std ElLTShL,0.0
+mean ElLTShR,0.0
+variance ElLTShR,0.0
+std ElLTShR,0.0
+mean ElLTSb,0.0
+variance ElLTSb,0.0
+std ElLTSb,0.0
+std SPELL,0.0
+variance ElLTSSh,0.0
+std ElLTSSh,0.0
+mean ElLTThL,0.0
+variance SPELL,0.0
+variance HESHR,0.0
+mean ElLTThR,0.0
+variance ElLTThR,0.0
+std ElLTThR,0.0
+mean ElLTWrL,0.0
+variance ElLTWrL,0.0
+std ElLTWrL,0.0
+mean HESHR ,0.0
+variance ElLTWrR,0.0
+std ElLTWrR,0.0
+mean ElRTFoL,0.0
+variance ElRTFoL,0.0
+std ElRTFoL,0.0
+mean ElRTFoR,0.0
+variance ElRTFoR,0.0
+std ElRTFoR,0.0
+mean ElRTHaL,0.0
+std HESHL,0.0
+std ElRTHaL,0.0
+mean ElRTHaR,0.0
+variance HESHL,0.0
+ std ElRTHaR,0.0
+mean ElRTHaTL,0.0
+variance ElRTHaTL,0.0
+std ElRTHaTL,0.0
+mean ElRTHaTR,0.0
+variance ElRTHaTR,0.0
+std ElRTHaTR,0.0
+std-z-WristRight,0.0
+variance ElRTH,0.0
+std ElRTH,0.0
+mean ElRTHiL,0.0
+variance ElRTHiL,0.0
+mean-z-WristRight,0.0
+mean ElRTHiR,0.0
+variance ElRTHiR,0.0
+std ElRTHiR,0.0
+mean ElRTKeL,0.0
+variance ElRTKeL,0.0
+std ElRTKeL,0.0
+mean ElRTKeR,0.0
+variance ElRTKeR,0.0
+std ElRTKeR,0.0
+mean ElRTNe,0.0
+variance ElRTNe,0.0
+std ElRTNe,0.0
+mean ElRTShL,0.0
+std-y-WristRight,0.0
+std ElRTShL,0.0
+variance-y-WristRight,0.0
+std-x-WristRight,0.0
+variance-x-WristRight,0.0
+mean ElRTSb,0.0
+variance ElRTSb,0.0
+std ElRTSb,0.0
+mean-x-WristRight,0.0
+variance ElRTSSh,0.0
+std ElRTSSh,0.0
+mean-z-WristLeft,0.0
+variance ElRTThL,0.0
+std ElRTThL,0.0
+mean ElRTThR,0.0
+variance ElRTThR,0.0
+std ElRTThR,0.0
+mean ElRTWrL,0.0
+variance ElRTWrL,0.0
+std ElRTWrL,0.0
+mean ElRTWrR,0.0
+variance ElRTWrR,0.0
+std ElRTWrR,0.0
+mean FoLTFoR,0.0
+variance FoLTFoR,0.0
+std FoLTFoR,0.0
+mean FoLTHaL,0.0
+variance FoLTHaL,0.0
+std FoLTHaL,0.0
+std-x-WristLeft,0.0
+variance FoLTHaR,0.0
+std FoLTHaR,0.0
+variance-x-WristLeft,0.0
+variance FoLTHaTL,0.0
+std FoLTHaTL,0.0
+mean-x-WristLeft,0.0
+variance FoLTHaTR,0.0
+std FoLTHaTR,0.0
+std-z-ThumbRight,0.0
+std-y-ThumbRight,0.0
+std FoLTH,0.0
+mean FoLTHiL,0.0
+variance FoLTHiL,0.0
+RomThRy,0.0
+mean FoLTHiR,0.0
+mean-y-ThumbRight,0.0
+std FoLTHiR,0.0
+mean FoLTKeL,0.0
+std-x-ThumbRight,0.0
+std FoLTKeL,0.0
+variance-x-ThumbRight,0.0
+variance FoLTKeR,0.0
+std FoLTKeR,0.0
+mean FoLTNe,0.0
+mean-x-ThumbRight,0.0
+std-z-ThumbLeft,0.0
+mean FoLTShL,0.0
+variance FoLTShL,0.0
+mean-z-ThumbLeft,0.0
+std-y-ThumbLeft,0.0
+variance FoLTShR,0.0
+std-x-ThumbLeft,0.0
+mean FoLTSb,0.0
+variance-x-ThumbLeft,0.0
+std FoLTSb,0.0
+mean FoLTSSh,0.0
+variance FoLTSSh,0.0
+std FoLTSSh,0.0
+mean FoLTThL,0.0
+variance FoLTThL,0.0
+std FoLTThL,0.0
+mean FoLTThR,0.0
+variance FoLTThR,0.0
+std FoLTThR,0.0
+mean-x-ThumbLeft,0.0
+variance FoLTWrL,0.0
+std FoLTWrL,0.0
+std-z-SpineShoulder,0.0
+variance FoLTWrR,0.0
+std FoLTWrR,0.0
+variance-z-SpineShoulder,0.0
+variance FoRTHaL,0.0
+std FoRTHaL,0.0
+std-y-SpineShoulder,0.0
+variance-y-SpineShoulder,0.0
+std FoRTHaR,0.0
+std-x-SpineShoulder,0.0
+variance FoRTHaTL,0.0
+std FoRTHaTL,0.0
+mean FoRTHaTR,0.0
+variance FoRTHaTR,0.0
+std FoRTHaTR,0.0
+mean FoRTH,0.0
+variance FoRTH,0.0
+std FoRTH,0.0
+variance-x-SpineShoulder,0.0
+variance FoRTHiL,0.0
+std FoRTHiL,0.0
+mean FoRTHiR,0.0
+variance FoRTHiR,0.0
+std FoRTHiR,0.0
+mean FoRTKeL,0.0
+mean-x-SpineShoulder,0.0
+std-z-SpineBase,0.0
+mean FoRTKeR,0.0
+variance FoRTKeR,0.0
+std FoRTKeR,0.0
+mean FoRTNe,0.0
+variance FoRTNe,0.0
+std FoRTNe,0.0
+mean FoRTShL,0.0
+variance FoRTShL,0.0
+std FoRTShL,0.0
+mean FoRTShR,0.0
+variance FoRTShR,0.0
+variance-z-SpineBase,0.0
+mean-z-SpineBase,0.0
+variance FoRTSb,0.0
+std FoRTSb,0.0
+mean FoRTSSh,0.0
+variance FoRTSSh,0.0
+std FoRTSSh,0.0
+variance-x-SpineBase,0.0
+variance FoRTThL,0.0
+std FoRTThL,0.0
+mean-x-SpineBase,0.0
+variance FoRTThR,0.0
+std FoRTThR,0.0
+std-z-ShoulderRight,0.0
+variance FoRTWrL,0.0
+std FoRTWrL,0.0
+variance-z-ShoulderRight,0.0
+variance FoRTWrR,0.0
+std FoRTWrR,0.0
+mean HaLTHaR,0.0
+variance HaLTHaR,0.0
+std HaLTHaR,0.0
+mean HaLTHaTL,0.0
+variance HaLTHaTL,0.0
+std HaLTHaTL,0.0
+mean HaLTHaTR,0.0
+variance HaLTHaTR,0.0
+std HaLTHaTR,0.0
+mean-z-ShoulderRight,0.0
+variance HaLTH,0.0
+std-y-ShoulderRight,0.0
+mean HaLTHiL,0.0
+variance HaLTHiL,0.0
+variance-y-ShoulderRight,0.0
+mean HaLTHiR,0.0
+mean-y-ShoulderRight,0.0
+std-x-ShoulderRight,0.0
+mean HaLTKeL,0.0
+variance-x-ShoulderRight,0.0
+std HaLTKeL,0.0
+mean HaLTKeR,0.0
+variance HaLTKeR,0.0
+std HaLTKeR,0.0
+mean HaLTNe,0.0
+variance HaLTNe,0.0
+std HaLTNe,0.0
+mean HaLTShL,0.0
+mean-x-ShoulderRight,0.0
+std-z-ShoulderLeft,0.0
+mean HaLTShR,0.0
+variance HaLTShR,0.0
+std HaLTShR,0.0
+std-y-ShoulderLeft,0.0
+variance HaLTSb,0.0
+std HaLTSb,0.0
+mean HaLTSSh,0.0
+variance-y-ShoulderLeft,0.0
+mean-y-ShoulderLeft,0.0
+mean HaLTThL,0.0
+std-x-ShoulderLeft,0.0
+variance-x-ShoulderLeft,0.0
+mean HaLTThR,0.0
+variance HaLTThR,0.0
+mean-x-ShoulderLeft,0.0
+mean HaLTWrL,0.0
+std-y-Neck,0.0
+variance-y-Neck,0.0
+mean HaLTWrR,0.0
+variance HaLTWrR,0.0
+std HaLTWrR,0.0
+mean HaRTHaTL,0.0
+variance HaRTHaTL,0.0
+std HaRTHaTL,0.0
+mean HaRTHaTR,0.0
+variance HaRTHaTR,0.0
+std HaRTHaTR,0.0
+mean HaRTH,0.0
+std-x-Neck,0.0
+std HaRTH,0.0
+mean HaRTHiL,0.0
+variance HaRTHiL,0.0
+std HaRTHiL,0.0
+mean HaRTHiR,0.0
+variance HaRTHiR,0.0
+std HaRTHiR,0.0
+mean HaRTKeL,0.0
+variance HaRTKeL,0.0
+std HaRTKeL,0.0
+mean HaRTKeR,0.0
+variance HaRTKeR,0.0
+std HaRTKeR,0.0
+mean HaRTNe,0.0
+variance HaRTNe,0.0
+std HaRTNe,0.0
+mean HaRTShL,0.0
+variance HaRTShL,0.0
+variance-x-Neck,0.0
+mean-x-Neck,0.0
+variance HaRTShR,0.0
+std HaRTShR,0.0
+mean HaRTSb,0.0
+variance HaRTSb,0.0
+std-z-KneeRight,0.0
+mean HaRTSSh,0.0
+variance HaRTSSh,0.0
+mean-z-KneeRight,0.0
+mean HaRTThL,0.0
+variance HaRTThL,0.0
+ std HaRTThL,0.0
+std-y-KneeRight,0.0
+variance HaRTThR,0.0
+std HaRTThR,0.0
+mean HaRTWrL,0.0
+variance HaRTWrL,0.0
+variance-y-KneeRight,0.0
+mean HaRTWrR,0.0
+variance HaRTWrR,0.0
+std HaRTWrR,0.0
+mean HaTLTHaTR,0.0
+variance HaTLTHaTR,0.0
+std HaTLTHaTR,0.0
+mean HaTLTH,0.0
+variance HaTLTH,0.0
+std HaTLTH,0.0
+mean HaTLTHiL,0.0
+variance HaTLTHiL,0.0
+std HaTLTHiL,0.0
+mean HaTLTHiR,0.0
+variance HaTLTHiR,0.0
+std HaTLTHiR,0.0
+mean HaTLTKeL,0.0
+variance HaTLTKeL,0.0
+std HaTLTKeL,0.0
+std-x-KneeRight,0.0
+variance HaTLTKeR,0.0
+std HaTLTKeR,0.0
+variance-x-KneeRight,0.0
+mean-x-KneeRight,0.0
+std-z-KneeLeft,0.0
+mean HaTLTShL,0.0
+variance-z-KneeLeft,0.0
+mean-z-KneeLeft,0.0
+mean HaTLTShR,0.0
+variance HaTLTShR,0.0
+std HaTLTShR,0.0
+mean HaTLTSb,0.0
+std-y-KneeLeft,0.0
+variance-y-KneeLeft,0.0
+mean-y-KneeLeft,0.0
+variance-x-KneeLeft,0.0
+std HaTLTSSh,0.0
+mean HaTLTThL,0.0
+mean-x-KneeLeft,0.0
+std-z-HipRight,0.0
+mean HaTLTThR,0.0
+variance HaTLTThR,0.0
+std HaTLTThR,0.0
+mean HaTLTWrL,0.0
+variance HaTLTWrL,0.0
+std HaTLTWrL,0.0
+mean HaTLTWrR,0.0
+variance HaTLTWrR,0.0
+std HaTLTWrR,0.0
+variance-z-HipRight,0.0
+variance HaTRTH,0.0
+std HaTRTH,0.0
+mean HaTRTHiL,0.0
+variance HaTRTHiL,0.0
+std HaTRTHiL,0.0
+mean HaTRTHiR,0.0
+variance HaTRTHiR,0.0
+std HaTRTHiR,0.0
+mean HaTRTKeL,0.0
+variance HaTRTKeL,0.0
+ std HaTRTKeL,0.0
+mean HaTRTKeR,0.0
+mean-z-HipRight,0.0
+variance-y-HipRight,0.0
+mean HaTRTNe,0.0
+variance HaTRTNe,0.0
+std HaTRTNe,0.0
+mean HaTRTShL,0.0
+variance HaTRTShL,0.0
+std HaTRTShL,0.0
+mean HaTRTShR,0.0
+variance HaTRTShR,0.0
+std-x-HipRight,0.0
+mean HaTRTSb,0.0
+variance HaTRTSb,0.0
+std HaTRTSb,0.0
+mean HaTRTSSh,0.0
+variance HaTRTSSh,0.0
+std HaTRTSSh,0.0
+mean HaTRTThL,0.0
+variance HaTRTThL,0.0
+std HaTRTThL,0.0
+mean HaTRTThR,0.0
+variance-x-HipRight,0.0
+std HaTRTThR,0.0
+mean HaTRTWrL,0.0
+variance HaTRTWrL,0.0
+variance-z-HipLeft,0.0
+mean HaTRTWrR,0.0
+variance HaTRTWrR,0.0
+std HaTRTWrR,0.0
+mean HTHiL,0.0
+variance HTHiL,0.0
+mean-z-HipLeft,0.0
+std-y-HipLeft,0.0
+variance HTHiR,0.0
+std HTHiR,0.0
+mean HTKeL,0.0
+variance HTKeL,0.0
+std HTKeL,0.0
+std-x-HipLeft,0.0
+variance HTKeR,0.0
+std HTKeR,0.0
+variance-x-HipLeft,0.0
+mean-x-HipLeft,0.0
+variance-z-Head,0.0
+variance-y-Head,0.0
+std-x-Head,0.0
+variance-x-Head,0.0
+mean HTShR,0.0
+variance HTShR,0.0
+std HTShR,0.0
+mean HTSb,0.0
+variance HTSb,0.0
+std HTSb,0.0
+mean-x-Head,0.0
+variance-z-HandTipRightA,0.0
+std HTSSh,0.0
+mean HTThL,0.0
+mean-z-HandTipRightA,0.0
+std-x-HandTipRightA,0.0
+mean HTThR,0.0
+variance HTThR,0.0
+std HTThR,0.0
+mean HTWrL,0.0
+variance HTWrL,0.0
+std HTWrL,0.0
+mean HTWrR,0.0
+variance HTWrR,0.0
+mean MidTHiR,0.0
+mean HiLTHiR,0.0
+variance HiLTHiR,0.0
+std HiLTHiR,0.0
+mean HiLTKeL,0.0
+variance HiLTKeL,0.0
+std HiLTKeL,0.0
+mean-x-HandTipRightA,0.0
+variance HiLTKeR,0.0
+std HiLTKeR,0.0
+mean HiLTNe,0.0
+variance HiLTNe,0.0
+std HiLTNe,0.0
+mean HiLTShL,0.0
+variance-y-HandTipLeft,0.0
+std HiLTShL,0.0
+mean HiLTShR,0.0
+variance HiLTShR,0.0
+std-x-HandTipLeft,0.0
+mean HiLTSb,0.0
+variance HiLTSb,0.0
+std HiLTSb,0.0
+mean HiLTSSh,0.0
+variance HiLTSSh,0.0
+std HiLTSSh,0.0
+variance-x-HandTipLeft,0.0
+variance HiLTThL,0.0
+std HiLTThL,0.0
+mean HiLTThR,0.0
+variance HiLTThR,0.0
+std HiLTThR,0.0
+mean-x-HandTipLeft,0.0
+variance-z-HandRight,0.0
+std HiLTWrL,0.0
+mean HiLTWrR,0.0
+variance HiLTWrR,0.0
+std HiLTWrR,0.0
+mean HiRTKeL,0.0
+variance HiRTKeL,0.0
+std HiRTKeL,0.0
+mean HiRTKeR,0.0
+variance HiRTKeR,0.0
+std HiRTKeR,0.0
+mean HiRTNe,0.0
+variance HiRTNe,0.0
+mean-z-HandRight,0.0
+mean HiRTShL,0.0
+variance HiRTShL,0.0
+std HiRTShL,0.0
+mean HiRTShR,0.0
+variance HiRTShR,0.0
+std-y-HandRight,0.0
+mean HiRTSb,0.0
+variance HiRTSb,0.0
+std HiRTSb,0.0
+std-x-HandRight,0.0
+variance HiRTSSh,0.0
+std HiRTSSh,0.0
+mean HiRTThL,0.0
+variance HiRTThL,0.0
+std HiRTThL,0.0
+mean HiRTThR,0.0
+variance-x-HandRight,0.0
+std HiRTThR,0.0
+mean HiRTWrL,0.0
+variance HiRTWrL,0.0
+std HiRTWrL,0.0
+mean HiRTWrR,0.0
+variance HiRTWrR,0.0
+std HiRTWrR,0.0
+mean KeLTKeR,0.0
+mean-x-HandRight,0.0
+std KeLTKeR,0.0
+mean-z-HandLeft,0.0
+variance KeLTNe,0.0
+std KeLTNe,0.0
+mean KeLTShL,0.0
+variance KeLTShL,0.0
+std KeLTShL,0.0
+mean KeLTShR,0.0
+variance KeLTShR,0.0
+std KeLTShR,0.0
+std-y-HandLeft,0.0
+variance KeLTSb,0.0
+std KeLTSb,0.0
+mean KeLTSSh,0.0
+variance KeLTSSh,0.0
+std KeLTSSh,0.0
+mean KeLTThL,0.0
+variance-y-HandLeft,0.0
+std KeLTThL,0.0
+mean KeLTThR,0.0
+variance KeLTThR,0.0
+std KeLTThR,0.0
+mean KeLTWrL,0.0
+variance KeLTWrL,0.0
+std KeLTWrL,0.0
+variance-x-HandLeft,0.0
+variance KeLTWrR,0.0
+std KeLTWrR,0.0
+mean KeRTNe,0.0
+variance KeRTNe,0.0
+std KeRTNe,0.0
+mean KeRTShL,0.0
+variance KeRTShL,0.0
+std KeRTShL,0.0
+mean KeRTShR,0.0
+variance KeRTShR,0.0
+std KeRTShR,0.0
+mean KeRTSb,0.0
+variance KeRTSb,0.0
+mean-x-HandLeft,0.0
+mean KeRTSSh,0.0
+variance KeRTSSh,0.0
+std KeRTSSh,0.0
+mean KeRTThL,0.0
+variance KeRTThL,0.0
+std KeRTThL,0.0
+mean KeRTThR,0.0
+variance KeRTThR,0.0
+std-z-FootRight,0.0
+mean KeRTWrL,0.0
+std-y-FootRight,0.0
+variance-y-FootRight,0.0
+mean KeRTWrR,0.0
+mean-x-FootRight,0.0
+std-z-FootLeft,0.0
+mean NeTShL,0.0
+variance-y-FootLeft,0.0
+mean-y-FootLeft,0.0
+mean NeTShR,0.0
+variance NeTShR,0.0
+std NeTShR,0.0
+std-x-FootLeft,0.0
+variance NeTSb,0.0
+std NeTSb,0.0
+mean NeTSSh,0.0
+variance NeTSSh,0.0
+std NeTSSh,0.0
+mean NeTThL,0.0
+variance-x-FootLeft,0.0
+mean-x-FootLeft,0.0
+mean NeTThR,0.0
+variance NeTThR,0.0
+std NeTThR,0.0
+mean NeTWrL,0.0
+variance NeTWrL,0.0
+std NeTWrL,0.0
+mean NeTWrR,0.0
+variance NeTWrR,0.0
+std NeTWrR,0.0
+mean ShLTShR,0.0
+variance ShLTShR,0.0
+std ShLTShR,0.0
+mean ShLTSb,0.0
+std-z-ElbowRight,0.0
+std ShLTSb,0.0
+mean ShLTSSh,0.0
+mean-z-ElbowRight,0.0
+std ShLTSSh,0.0
+std-y-ElbowRight,0.0
+variance ShLTThL,0.0
+std ShLTThL,0.0
+mean ShLTThR,0.0
+variance-y-ElbowRight,0.0
+std-x-ElbowRight,0.0
+variance-x-ElbowRight,0.0
+variance ShLTWrL,0.0
+std ShLTWrL,0.0
+mean-x-ElbowRight,0.0
+variance ShLTWrR,0.0
+std ShLTWrR,0.0
+mean ShRTSb,0.0
+variance ShRTSb,0.0
+std ShRTSb,0.0
+mean ShRTSSh,0.0
+variance ShRTSSh,0.0
+std ShRTSSh,0.0
+mean ShRTThL,0.0
+std-z-ElbowLeft,0.0
+std ShRTThL,0.0
+mean ShRTThR,0.0
+variance ShRTThR,0.0
+std ShRTThR,0.0
+mean ShRTWrL,0.0
+variance ShRTWrL,0.0
+std ShRTWrL,0.0
+mean ShRTWrR,0.0
+variance ShRTWrR,0.0
+variance-z-ElbowLeft,0.0
+mean SbTSSh,0.0
+variance SbTSSh,0.0
+std SbTSSh,0.0
+mean SbTThL,0.0
+variance SbTThL,0.0
+mean-z-ElbowLeft,0.0
+mean SbTThR,0.0
+variance SbTThR,0.0
+std SbTThR,0.0
+mean SbTWrL,0.0
+variance SbTWrL,0.0
+std SbTWrL,0.0
+std-y-ElbowLeft,0.0
+variance SbTWrR,0.0
+std SbTWrR,0.0
+mean SShTThL,0.0
+variance SShTThL,0.0
+std SShTThL,0.0
+mean SShTThR,0.0
+variance SShTThR,0.0
+variance-y-ElbowLeft,0.0
+mean-y-ElbowLeft,0.0
+variance SShTWrL,0.0
+std SShTWrL,0.0
+mean SShTWrR,0.0
+variance SShTWrR,0.0
+std SShTWrR,0.0
+mean ThLTThR,0.0
+variance ThLTThR,0.0
+std ThLTThR,0.0
+mean ThLTWrL,0.0
+variance ThLTWrL,0.0
+std ThLTWrL,0.0
+mean ThLTWrR,0.0
+variance ThLTWrR,0.0
+std ThLTWrR,0.0
+mean ThRTWrL,0.0
+variance ThRTWrL,0.0
+std ThRTWrL,0.0
+mean ThRTWrR,0.0
+variance ThRTWrR,0.0
+std ThRTWrR,0.0
+mean WrLTWrR,0.0
+variance WrLTWrR,0.0
+std WrLTWrR,0.0
+mean HTGr,0.0
+std-x-ElbowLeft,0.0
+variance-x-ElbowLeft,0.0
+mean-x-ElbowLeft,0.0
+mean-x-AnkleLeft,0.0
+std sbTGr,0.0
+mean HTiLTGr,0.0
+MinDBFE,0.0
+std HTiLTGr,0.0
+mean HTiRTGr,0.0
+MaxDBFE,0.0
+std HTiRTGr,0.0
+mean AnkLTGr,0.0
+HaTiRPos,0.0
+HaTiLPos,0.0
+mean AnkRTGr,0.0
+variance AnkRTGr,0.0
+std AnkRTGr,0.0
+RomMidx,0.0
+RomMidy,0.0
+Velocity,0.0
+RomAnLy,0.0
+RomAnRx,0.0
+RomAnRy,0.0
+RomEiLx,0.0
+RomEiLy,0.0
+RomEiRx,0.0
+RomEiRy,0.0
+RomFoLx,0.0
+GaCT,0.0
+RomFoRx,0.0
+RomFoRy,0.0
+RomHaLx,0.0
+StrLe,0.0
+MaxStWi,0.0
+RomHaRy,0.0
+RomHaTLx,0.0
+MaxStLe,0.0
+RomHaTRx,0.0
+RomWrRy,0.0
+RomWrRx,0.0
+RomHy,0.0
+RomHiLx,0.0
+RomHiLy,0.0
+RomWrLy,0.0
+std-z-AnkleRight,0.0
+RomKeLx,0.0
+variance-z-Midspain,0.0
+std-z-Midspain,0.0
+mean-y-AnkleLeft,0.0
+variance-y-AnkleLeft,0.0
+mean-z-Midspain,0.0
+std-y-Midspain,0.0
+variance-z-AnkleLeft,0.0
+variance-y-Midspain,0.0
+mean-x-AnkleRight,0.0
+variance-x-AnkleRight,0.0
+std-x-AnkleRight,0.0
+mean-y-Midspain,0.0
+std-x-Midspain,0.0
+variance-x-Midspain,0.0
+mean-z-AnkleRight,0.0
+variance-z-AnkleRight,0.0
+RomKeRx,0.0
+mean-x-Midspain,0.0
+Threshold,0.0
+RomNex,0.0
+RomNey,0.0
+std-x-AnkleLeft,0.0
+RomShLy,0.0
+RomShRx,0.0
+RomShRy,0.0
+RomSbx,0.0
+RomSby,0.0
+RomSshx,0.0
+RomSshy,0.0
+RomThLx,0.0
+RomThLy,0.0
+RomThRx,0.0
+std HTWrR,0.0
