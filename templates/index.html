@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroMotion &bull; ASD Kinematic Diagnostic Tool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark"></span>
+        <div class="brand-text">
+          <span class="brand-title">NeuroMotion</span>
+          <span class="brand-divider">/</span>
+          <span class="brand-subtitle">Kinematic Movement Classifier</span>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="meta-item">Cohort: 100 Children (50 ASD, 50 TD)</span>
+        <span class="meta-item">Test: 26 Held-Out Subjects</span>
+        <span class="meta-status">Ready</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-container">
+
+    <!-- Model Selector (Segmented control) -->
+    <section class="panel">
+      <div class="panel-head">
+        <span class="panel-label">Model Architecture</span>
+        <span class="panel-hint">Select classifier to evaluate kinematic sequence</span>
+      </div>
+      <div class="model-selector" id="modelGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Evaluation Controls Panel -->
+    <section class="panel">
+      <div class="panel-head-tabs">
+        <div class="tabs-nav">
+          <button class="tab-link active" id="tabCohort" onclick="switchInputTab('cohort')">Clinical Cohort</button>
+          <button class="tab-link" id="tabUpload" onclick="switchInputTab('upload')">Custom File</button>
+        </div>
+      </div>
+
+      <!-- Cohort Mode -->
+      <div class="tab-pane" id="cohortContent">
+        <div class="controls-grid">
+          <div class="control-field">
+            <label for="splitFilter">Group Filter</label>
+            <select id="splitFilter" onchange="filterChildrenList()">
+              <option value="test" selected>Held-Out Test Set (26 Unseen)</option>
+              <option value="all">Full Cohort (100 Children)</option>
+              <option value="asd">ASD Diagnosed (50)</option>
+              <option value="td">Typically Developing (50)</option>
+            </select>
+          </div>
+
+          <div class="control-field flex-2">
+            <label for="childSelect">Subject ID</label>
+            <select id="childSelect" onchange="onChildSelected()">
+              <!-- Injected by JS -->
+            </select>
+          </div>
+
+          <div class="control-field auto-width">
+            <label>&nbsp;</label>
+            <button class="btn btn-ghost" onclick="selectRandomChild()" title="Pick random child">Random</button>
+          </div>
+
+          <div class="control-field flex-2 threshold-control">
+            <div class="threshold-meta">
+              <label for="thresholdSlider">Decision Threshold (&theta;*)</label>
+              <span class="threshold-reading" id="thresholdDisplay">0.63</span>
+            </div>
+            <input type="range" id="thresholdSlider" min="0.20" max="0.80" step="0.01" value="0.63" oninput="updateThreshold(this.value)">
+          </div>
+
+          <div class="control-field auto-width">
+            <label>&nbsp;</label>
+            <button class="btn btn-primary" id="runBtn" onclick="runDiagnosis()">Run Assessment</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upload Mode -->
+      <div class="tab-pane hidden" id="uploadContent">
+        <div class="drop-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
+          <p class="drop-primary">Drop kinematic movement file (.xlsx, .csv)</p>
+          <p class="drop-secondary">or click to browse local files</p>
+          <input type="file" id="fileInput" accept=".xlsx,.csv" style="display:none;" onchange="handleFileSelect(event)">
+        </div>
+        <div id="fileSelectedInfo" class="file-info hidden"></div>
+        <div class="upload-action">
+          <button class="btn btn-primary" onclick="runUploadDiagnosis()">Evaluate Uploaded File</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="resultsSection">
+
+      <!-- Diagnostic Verdict Summary Banner -->
+      <div class="verdict-banner" id="verdictBadge">
+        <div class="verdict-top">
+          <div class="verdict-subject">
+            <span class="subject-tag" id="resChildId">ASD_001</span>
+            <span class="split-pill" id="resSplitBadge">Held-Out Test Set</span>
+          </div>
+          <div class="verdict-match" id="groundTruthBox">
+            <span class="match-label">Ground Truth:</span>
+            <span class="match-val" id="resGroundTruth">ASD</span>
+            <span class="match-status correct" id="resMatchBadge">Match</span>
+          </div>
+        </div>
+
+        <div class="verdict-body">
+          <div class="verdict-primary-col">
+            <div class="verdict-icon-wrap" id="verdictIcon"></div>
+            <div>
+              <span class="verdict-caption">Diagnostic Assessment</span>
+              <h2 class="verdict-title" id="resVerdictName">Autism Spectrum Disorder</h2>
+            </div>
+          </div>
+
+          <div class="verdict-stats-col">
+            <div class="stat-unit">
+              <span class="stat-label">Confidence</span>
+              <span class="stat-value" id="resConfidence">98.5%</span>
+            </div>
+            <div class="stat-unit">
+              <span class="stat-label">P(ASD) Mean</span>
+              <span class="stat-value" id="resProb">0.985</span>
+            </div>
+            <div class="stat-unit">
+              <span class="stat-label">Volatility (&sigma;)</span>
+              <span class="stat-value" id="resVolatility">&plusmn; 0.003</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sleek Probability Bar -->
+        <div class="probability-track-wrap">
+          <div class="probability-track">
+            <div class="probability-fill" id="gaugeFill" style="width: 50%;"></div>
+            <div class="threshold-pin" id="gaugeMarker" style="left: 63%;">
+              <span class="pin-label">&theta; 0.63</span>
+            </div>
+          </div>
+          <div class="track-labels">
+            <span>0.0 Typically Developing</span>
+            <span>1.0 ASD Phenotype</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2-Column Detail Grid -->
+      <div class="details-grid">
+
+        <!-- Column 1: Multi-Model Consensus -->
+        <div class="panel">
+          <div class="panel-head">
+            <span class="panel-label">Multi-Model Consensus</span>
+            <span class="panel-hint">Predictions across 5 candidate architectures</span>
+          </div>
+          <div class="consensus-table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Prob P(ASD)</th>
+                  <th>Verdict</th>
+                </tr>
+              </thead>
+              <tbody id="consensusList">
+                <!-- Injected by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Column 2: 8-Trial Kinematic Consistency -->
+        <div class="panel">
+          <div class="panel-head">
+            <span class="panel-label">Trial Consistency (8 Movement Sequences)</span>
+            <span class="panel-hint">Probability scored across repeated trials</span>
+          </div>
+          <div class="trials-strip" id="trialsGrid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Biomechanical Features / SHAP Attributions -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="panel-label">Biomechanical Feature Attribution (SHAP)</span>
+          <span class="panel-hint">Primary kinematic indicators driving classification</span>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Kinematic Feature</th>
+                <th>Subject Value</th>
+                <th>Clinical Attribution</th>
+                <th>Biomechanics</th>
+              </tr>
+            </thead>
+            <tbody id="biomarkersBody">
+              <!-- Injected by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Clinical Benchmark Evidence -->
+    <section class="panel">
+      <div class="panel-head">
+        <span class="panel-label">Cohort Benchmark Performance</span>
+        <span class="panel-hint">Evaluated on 26 unseen test children (1,000 bootstrap resamples)</span>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Model Architecture</th>
+              <th>Balanced Acc</th>
+              <th>Sensitivity</th>
+              <th>Specificity</th>
+              <th>F1-Score</th>
+              <th>ROC-AUC</th>
+              <th>ECE</th>
+            </tr>
+          </thead>
+          <tbody id="benchmarkBody">
+            <!-- Injected by JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-inner">
+      <span>NeuroMotion Clinical ML &bull; 100-Subject Movement Kinematics Dataset</span>
+      <span>Zero Frame Leakage &bull; Group-Aware Subject Partitioning</span>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
