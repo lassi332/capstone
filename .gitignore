@@ -1,0 +1,24 @@
+# Large archive files & videos (keep repo lightweight for cross-device demo)
+Dataset.zip
+Dataset-2.rar
+*.avi
+*.mp4
+Dataset/Autism/
+Dataset/Typical/
+Dataset/Severe level of ASD/
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+catboost_info/
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
